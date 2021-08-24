@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e5e5e5;
+    font-family: arial;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    
+}
+
+/*----------Header----------*/
+
+.headercontainer{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+nav img{
+    position: absolute;
+    left: 9vh;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.ulnav{
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;
+    right: 9vh;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+.linkshn{
+    text-decoration: none;
+    float: left;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: white;
+    background: #013268;
+}
+
+.linkshn:hover{
+    background: #EB1926;
+}
+
+/*----------Section_Contact_Initial----------*/
+
+.contact_initial_container{
+    width: 100%;
+    min-height: 600px;
+    background-image: url("../Images/engine_contato.jpg");
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+.media_contact_initial{
+    padding: 10px;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.media_contact_initial p{
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+.link_contact_initial_container{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#link_contact_initial{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: #013268;
+}
+
+#link_contact_initial:hover{
+    background: #EB1926;
+}
+
+#image_font{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+/*----------Section 2----------*/
+
+#payment_container{
+    width: 100%;
+    height: 810px;
+    background: url("../Images/payment_bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+#payment_options{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+#info{
+    margin-bottom: 100px;
+}
+
+#info a{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: #013268;
+    font-weight: bold;
+}
+
+#info a:hover{
+    background: #EB1926;
+}
+
+#paylink{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 0px 0px 40px 40px;
+    
+}
+
+/*----------Footer----------*/
+
+.footer_container{
+    width: 100%;
+    height: 500px;
+    background: #2b2b2b;
+    font-size: 20px;
+}
+
+.footer_container p, a, h3{
+    color: white;
+    text-decoration: none;
+}
+
+.footer_container a:hover{
+    color: gray;
+}
+
+#media_footer{
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 80px;
+}
+
+#contatos{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#contatos h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#endereço{
+    display: inline-block;
+    position: relative;
+    bottom: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#endereço h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#funcionamento{
+    display: inline-block;
+    position: relative;
+    bottom: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#funcionamento h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*----------Icon Whatsapp----------*/
+
+#icon_whatsapp_fixed{
+    width: 70px;
+    height: 70px;
+    background: red;
+    background-image: url("../Images/icon_whatsapp.png");
+    border-radius: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 1160px){}
+/*Fazer adaptação no site, após essa resolução a interface buga*/
