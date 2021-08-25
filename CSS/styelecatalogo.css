@@ -76,7 +76,7 @@ nav img{
 #list_container{
     width: 1000px;
     height: 800px;
-    position: absolute;
+    position: relative;
     background: white;
     left: 230px;
     top: 100px;
@@ -92,11 +92,13 @@ nav img{
 
 #product_list{
     position: absolute;
-    top: 50%;
+    top: 53%;
     transform: translateY(-50%);
-    font-family: Arial, Helvetica;
+    font-family: Arial;
     margin-left: 30px;
     font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
 }
 
 
