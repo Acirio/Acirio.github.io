@@ -18,17 +18,18 @@ body{
 
 .headercontainer{
     width: 100%;
-    min-height: 100px;
+    height: 100px;
     background-color: white;
     position: sticky;
     top: 0px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
     z-index: 1;
+    overflow: hidden;
 }
 
 nav img{
     position: absolute;
-    left: 9vh;
+    left: 90px;
     bottom: 50%;
     transform: translateY(50%);
 }
@@ -37,7 +38,7 @@ nav img{
     list-style-type: none;
     display: inline-block;
     position: absolute;
-    right: 9vh;
+    right: 90px;
     bottom: 50%;
     transform: translateY(50%);
 
@@ -46,8 +47,7 @@ nav img{
 .linkshn{
     text-decoration: none;
     float: left;
-    margin-right: 3vh;
-    margin-left: 3vh;
+    margin-left: 40px;
     padding: 10px 20px 10px 20px;
     font-weight: bold;
     border-radius: 100px;
@@ -64,6 +64,7 @@ nav img{
 #list_total_container{
     height: 1000px;
     position: relative;
+    overflow: hidden;
 }
 
 #decoration{
@@ -74,11 +75,11 @@ nav img{
 }
 
 #list_container{
-    width: 1000px;
+    width: 850px;
     height: 800px;
     position: relative;
     background: white;
-    left: 230px;
+    left: 260px;
     top: 100px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
@@ -109,6 +110,7 @@ nav img{
     height: 500px;
     background: #2b2b2b;
     font-size: 20px;
+    overflow: hidden;
 }
 
 .footer_container p, a, h3{
@@ -178,5 +180,44 @@ nav img{
     bottom: 20px;
 }
 
-@media screen and (max-width: 1250px){}
+@media screen and (max-width: 1250px){
+
+/*----------Header----------*/
+
+nav img{
+    left: 10px;
+}
+
+.ulnav{
+    right: 10px;
+}
+
+.linkshn{
+    margin-left: 20px;
+}
+
+/*----------List----------*/
+
+#list_container{
+    left: 130px;
+}
+
+/*----------Footer----------*/
+
+#contatos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#endereço{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#funcionamento{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+}
 /*Fazer adaptação no site, após essa resolução a interface buga*/
